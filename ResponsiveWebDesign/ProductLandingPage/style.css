@@ -1,0 +1,174 @@
+.container{
+    margin: 0 auto;
+    text-align: justify;
+    max-width: 800px;
+}
+
+header{
+    
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: black;
+    margin-top: 0;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+
+}
+
+header img{
+    height: 60px;
+    width: 250px;
+}
+
+
+
+#nav-bar a{
+    float: left;
+    padding: 7px;
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+
+    
+}
+#nav-bar a:hover{
+    background-color: #cccccc;
+    color: black;
+}
+
+
+
+
+.content img{
+    width: max-content;
+}
+
+.content h1{
+    margin-left: 60px;
+}
+
+.content p{
+    margin-left: 70px;
+}
+
+
+form{
+    text-align: center;
+    padding-top: 100px;
+}
+
+form #submit{
+    background-color: rgb(235, 174, 52);
+    width: 100px;
+    padding: 5px 20px;
+    text-align: center;
+
+}
+
+form #submit:hover{
+    cursor: pointer;
+}
+
+#pricing{
+    margin: 20px auto;
+    display: flex;
+}
+
+.content img{
+    width: max-content;
+}
+
+.price-all{
+    border: 2px solid black;
+    width:230px;
+    display: inline-block;
+    margin: 2px auto;
+    padding-top: 0;
+
+
+}
+.price-all h1{
+    background-color: #cccccc ;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    align-items: center;
+    margin-top: 0;
+}
+
+.price-all p, .price-all h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#pricing .btn{
+    background-color: #ffbf00 ;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    margin: 0 auto 5px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding-top: 5px;
+    
+}
+#pricing .btn:hover{
+    cursor: pointer;
+}
+
+footer .option ul li {
+    text-decoration: none;
+    display: inline;
+    padding: 5pxs;
+}
+
+footer{
+    text-align: right;
+    padding: 10px 20px 20px 0;
+    background-color: #cccccc;
+    margin-top: 40px;
+    bottom: 0;
+}
+
+
+.content img{
+    float: left;
+    width: 40px;
+}
+
+.video{
+    max-width: 400px;
+    max-height: 300px;
+    margin: auto;
+}
+
+@media(max-width: 600px)
+{
+    .content img{
+        display: none;
+    }
+
+    header{
+        background-color: white;
+        color: black;
+        display: table-column;
+        align-content: center;
+
+    }
+    #nav-bar a{
+        color: black;
+        float: none;
+        flex-direction: column;
+    }
+
+    #pricing{
+        flex-direction: column;
+    }
+    form{
+        padding-top: 200px;
+    }
+}

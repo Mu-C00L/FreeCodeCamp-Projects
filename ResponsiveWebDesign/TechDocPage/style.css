@@ -1,0 +1,69 @@
+header{
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+code{
+    background-color: #ccc;
+}
+
+p{
+    font-size: 17px;
+}
+
+#navbar p{
+    font-size: 30px;
+    font-weight: 700;
+    color: darkolivegreen;
+}
+
+#navbar a {
+    display: block;
+    width: 220px;
+    border: 1px solid black;
+    padding:5px 10px ;
+    text-decoration: none;
+    color: darkolivegreen;
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+#navbar :last-child{
+    border-bottom: none;
+    border-right: 1px solid black;
+    height: max-content;
+    
+    
+}
+
+#navbar{
+    
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+main{
+    display: block;
+    margin-left: 250px;
+
+}
+
+@media(max-width:650px)
+{
+    #navbar p{
+        position: relative;
+        text-align: center;
+        
+    }
+    #navbar{
+        position: relative;
+        margin: 10px auto;
+    }
+    
+    main{
+        margin:auto;
+    }
+
+}

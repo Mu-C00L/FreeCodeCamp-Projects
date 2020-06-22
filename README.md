@@ -1,2 +1,2 @@
 # FreeCodeCamp-Projects
-This repo contains the projects for free codecamp
+This repo contains the projects of freecodecamp made by me.
